@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>2021-前端-梁又文</title>
-  <base target="_blank" />
-  <link rel="icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="base.css">
-  <link rel="stylesheet" href="style1.css">
-  <style media="print">
+  <base target="_blank">
+  <link rel="icon" href="eb8987e08264fe5e084b2164c1f8332c">
+  <link rel="stylesheet" href="9295043909cc2ebf60329ea5bb4ed1ab">
+  <link rel="stylesheet" href="e2998f69eefa685561e37f1f1f4919bb">
+  <style media="print" data-parcel-key="1430909c168d744a79721bc72c7845f4">
   body {
     margin: 0;
   }
@@ -32,23 +32,23 @@
   <section class="others">
     <h2>相关链接</h2>
     <ul>
-      <li><a href="https://www.yuque.com/waver-klavd/wb96n6">我的博客</a>，目前已有 61 篇技术文章</li>
-      <li><a href="https://gitee.com/layouwen">我的 Gitee</a>，过去一年有 2188+ 次提交</li>
+      <li><a href="17f189c4063773fce9d2d17d70fd9e00">我的博客</a>，目前已有 61 篇技术文章</li>
+      <li><a href="5208c8323f0a2b2b812701255ce8f456">我的 Gitee</a>，过去一年有 1970+ 次提交</li>
     </ul>
   </section>
   <section class="education">
     <h2>教育经历</h2>
-    <!--    <p>-->
-    <!--      <span class="pc">华南理工大学(继续教育）</span>-->
-    <!--      <span class="phone">华南理工大学</span>-->
-    <!--      <span>计算机科学与技术</span>-->
-    <!--      <span>本科</span>-->
-    <!--    </p>-->
     <p>
-      <span class="pc">广州市机电技师学院</span>
-      <span class="phone">广州机电技师学院</span>
+      <span class="pc">华南理工大学(继续教育）</span>
+      <span class="phone">华南理工大学</span>
+      <span>计算机科学与技术</span>
+      <span>本科</span>
+    </p>
+    <p>
+      <span class="pc">广州市广播电视大学分校</span>
+      <span class="phone">广播电视大学</span>
       <span>计算机网络应用</span>
-      <span>大专</span>
+      <span>高职</span>
     </p>
   </section>
   
@@ -122,7 +122,7 @@
         <header>
           <h3>博客服务端 NodeJS</h3>
           <div>2020.12.30 ~ 2021.01.14</div>
-          <span><a href="https://github.com/layouwen/nodejs-blob">源码链接</a></span>
+          <span><a href="3eabfad6d5fc5b1dc86adafcebfd6589">源码链接</a></span>
         </header>
         <p>为搭建个人博客，使用通过查阅资料自己搭建了个NodeJS服务端。</p>
         <p>分别使用 <strong>原生</strong> NodeJS、<strong>Express</strong>、<strong>koa2
@@ -135,7 +135,7 @@
         <header>
           <h3>闪电管理后台 React</h3>
           <div>2020.07.15 ~ 2020.11.01</div>
-          <span><a href="http://www.gitmen.com/lightning">项目官网</a></span>
+          <span><a href="8c8011ec4be56db702d615e79267eb11">项目官网</a></span>
         </header>
         <p>一个高效可复用的 <strong>后台管理系统</strong>，传入数据库相关配置，快速生成可视化数据库配置页面。</p>
         <p>负责 <strong>用户权限分配</strong>、 <strong>字段操作权限制</strong>、 <strong>表单可视化组件</strong>等、 BUG修复及项目更新迭代。</p>
@@ -154,9 +154,9 @@
           <h3>易新账本 Vue2</h3>
           <div>2020.06.23 ~ 2020.08.22</div>
           <span>
-            <a href="https://github.com/Layouwen/yixin-money-vue">Vue源码</a>
-            <a href="https://github.com/Layouwen/yixin-money-react">React源码</a>
-            <a href="https://layouwen.gitee.io/yixin-money-vue-website">项目预览</a>
+            <a href="fff8ac00e5ccf2eb3e72526ac849c8f0">Vue源码</a>
+            <a href="dd98cbe12cf3afc5ac5eec52e4b0390f">React源码</a>
+            <a href="394849d30156b03a62ed9a0892c06a90">项目预览</a>
           </span>
         </header>
         <p>一款简约风的记账应用。分别使用 <strong>Vue2</strong> 及 <strong>React</strong> 实现了2个版本。</p>
@@ -170,8 +170,8 @@
           <h3>无名组件库 Vue2 + 3</h3>
           <div>2020.05.11 ~ 至今</div>
           <span>
-            <a href="https://layouwen.gitee.io/yixin-ui-vue">Vue2旧版</a>
-            <a href="https://layouwen.gitee.io/easyw-ui-vue-website">Vue3新版</a>
+            <a href="931207958279a5437d6c62323b48ee39">Vue2旧版</a>
+            <a href="0f8e992fd6976a7d60dfa29bb844a113">Vue3新版</a>
           </span>
         </header>
         <p>一个基于 Vue3 + TypeScript 的 UI 组件库，目前包括 <strong>Button</strong>、<strong>Switch</strong>...等常见
@@ -192,7 +192,7 @@
         <header>
           <h3>TODO清单</h3>
           <span>
-            <a href="https://github.com/layouwen/todo-node">源码链接</a>
+            <a href="10eb6bfbd3ec4231652109ed03b79d4b">源码链接</a>
           </span>
         </header>
         <p>一款基于 <strong>Node.js</strong> 实现的简单TODO清单功能。可用于熟悉Node的文件操作。</p>
@@ -203,8 +203,8 @@
         <header>
           <h3>皮卡皮卡</h3>
           <span>
-            <a href="https://github.com/Layouwen/Pikachu">源码链接</a>
-            <a href="https://layouwen.gitee.io/pikachu/src/index.html">项目预览</a>
+            <a href="be849dc6d0a8e8d26ceb61c68b279de6">源码链接</a>
+            <a href="2eafc00bff5e3aec092fd23c15cac186">项目预览</a>
           </span>
         </header>
         <p>这是一个使用 <strong>CSS</strong> ，根据模板图尽可能 <strong>还原</strong> 图片的效果。</p>
@@ -213,7 +213,7 @@
     </ul>
   </section>
 </article>
-<script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.8.0/echarts.min.js"></script>
-<script src="style1.js "></script>
+<script src="fc89e7fecd689ccd383694e29ee6eda0"></script>
+<script src="6f1bf246ae17428acd79003881aa1f79"></script>
 </body>
 </html>

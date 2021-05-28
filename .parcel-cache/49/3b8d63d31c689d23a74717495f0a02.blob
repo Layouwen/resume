@@ -1,0 +1,211 @@
+body {
+  background: #eee;
+  margin: 20px 0;
+}
+
+.phone {
+  display: none;
+}
+
+.bio {
+  position: relative;
+}
+
+.bio img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.education > p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education > p span:last-child {
+  padding-left: 1em;
+}
+
+.projects p {
+  color: #666;
+}
+
+.projects strong {
+  color: #000;
+  font-weight: bold;
+}
+
+.projects > ol {
+  margin-top: 0;
+  list-style-position: inside;
+  padding: 0;
+}
+
+.projects > ol > li {
+  margin-bottom: 24px;
+}
+
+.projects > ol > li > header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects > ol > li h3 {
+  width: 200px;
+}
+
+.projects > ol > li span {
+  flex: 1;
+  text-align: right;
+}
+
+.projects header > span > a:not(:last-child) {
+  margin-right: 2em;
+}
+
+.openSource header > span > a:not(:last-child) {
+  margin-right: 2em;
+}
+
+#skills {
+  width: 500px;
+  height: 270px;
+}
+
+/* @media print {
+    #skills {
+        display: none;
+    }
+} */
+
+.skills > .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills > .wrapper > :first-child {
+  margin-right: 24px;
+}
+
+.skills > .wrapper > ul {
+  color: #666;
+}
+
+.skills > .wrapper strong {
+  color: #000;
+  font-weight: bold;
+}
+
+.skills > .wrapper > ul > li {
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.openSource header img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.openSource > ul > li {
+  margin-bottom: 24px;
+}
+
+.openSource header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.openSource strong {
+  color: #000;
+  font-weight: bold;
+}
+
+.jobs > ol > li {
+  margin: 12px 0;
+}
+
+.jobs header {
+  display: flex;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.jobs header > h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.jobs header > h4 {
+  margin-left: 1em;
+  font-size: 18px;
+}
+
+.jobs header > span {
+  font-size: 18px;
+  margin-left: auto;
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 0;
+  }
+
+  article {
+    width: auto;
+    height: auto;
+  }
+
+  .bio img {
+    display: none;
+  }
+
+  .skills .wrapper {
+    flex-direction: column;
+  }
+
+  #skills {
+    width: auto;
+  }
+
+  .jobs header {
+    flex-direction: column;
+  }
+
+  .jobs header > h3,
+  .jobs header > h4,
+  .jobs header > span {
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .projects header {
+    flex-direction: column;
+  }
+
+  .projects > ol > li > header > span {
+    margin: .5em 0;
+    text-align: left;
+  }
+
+  .openSource header {
+    flex-direction: column;
+  }
+
+  .openSource > ul > li > header > span {
+    margin: .5em 0;
+    text-align: left;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .phone {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style1.HASH_REF_f7457570d2a130f5c00046fc1233ad5a.css.map */

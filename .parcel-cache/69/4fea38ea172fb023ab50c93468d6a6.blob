@@ -5,12 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>2021-前端-梁又文</title>
-  <base target="_blank" />
-  <link rel="icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="base.css">
-  <link rel="stylesheet" href="style1.css">
-  <style media="print">
-  body {
+  <base target="_blank">
+  <link rel="icon" href="/favicon.HASH_REF_319fe7e9f67f8bbce58f73106a47e69c.ico">
+  <link rel="stylesheet" href="/style1.HASH_REF_f938859e7a9afa723c75d83310868131.css">
+  <link rel="stylesheet" href="/style1.HASH_REF_f7457570d2a130f5c00046fc1233ad5a.css">
+  <style media="print">body {
     margin: 0;
   }
 
@@ -18,7 +17,7 @@
     page-break-before: always;
     margin-top: 30px;
   }
-  </style>
+</style>
 </head>
 
 <body>
@@ -38,17 +37,17 @@
   </section>
   <section class="education">
     <h2>教育经历</h2>
-    <!--    <p>-->
-    <!--      <span class="pc">华南理工大学(继续教育）</span>-->
-    <!--      <span class="phone">华南理工大学</span>-->
-    <!--      <span>计算机科学与技术</span>-->
-    <!--      <span>本科</span>-->
-    <!--    </p>-->
     <p>
-      <span class="pc">广州市机电技师学院</span>
-      <span class="phone">广州机电技师学院</span>
+      <span class="pc">华南理工大学(继续教育）</span>
+      <span class="phone">华南理工大学</span>
+      <span>计算机科学与技术</span>
+      <span>本科</span>
+    </p>
+    <p>
+      <span class="pc">广州市广播电视大学分校</span>
+      <span class="phone">广播电视大学</span>
       <span>计算机网络应用</span>
-      <span>大专</span>
+      <span>高职</span>
     </p>
   </section>
   
@@ -214,6 +213,6 @@
   </section>
 </article>
 <script src="https://cdn.bootcdn.net/ajax/libs/echarts/4.8.0/echarts.min.js"></script>
-<script src="style1.js "></script>
+<script src="/style1.HASH_REF_549f5a4f008e8ac25d7a3d9a677a1b93.js"></script>
 </body>
 </html>
