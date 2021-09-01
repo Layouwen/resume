@@ -4,6 +4,12 @@ ul {
   /* list-style: none; */
 }
 
+i {
+  font-style: normal;
+  color: #333;
+  text-decoration: underline;
+}
+
 strong {
   color: #333;
 }
@@ -30,7 +36,6 @@ body {
 }
 
 header {
-
   background: #3c3c3c;
   width: 100%;
   text-align: center;
@@ -38,12 +43,12 @@ header {
   color: #fff;
 }
 
-header>h1 {
+header > h1 {
   font-size: 30px;
   margin-bottom: 0;
 }
 
-header>p {
+header > p {
   font-size: 14px;
   color: #aaa;
   margin: 0;
@@ -71,11 +76,10 @@ aside .avatar img {
   background: #ccc;
 }
 
-
 section {
   border-bottom: 1px solid #ccc;
-  margin: 30px 20px 0 20px;
-  padding-bottom: 20px;
+  margin: 20px 20px 0 20px;
+  /* padding-bottom: 20px; */
 }
 
 section h2 {
@@ -93,11 +97,11 @@ section a {
   color: #333;
 }
 
-section>.item>p {
+section > .item > p:first-child {
   display: flex;
 }
 
-section>.item>p>span:not(:last-child) {
+section > .item > p > span:not(:last-child) {
   flex: 1;
 }
 

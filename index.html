@@ -1,13 +1,324 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>2021-前端-梁又文</title>
-</head>
-<body>
-请浏览style1.htm
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2021-前端-梁又文</title>
+    <base target="_blank" />
+    <link rel="icon" href="images/logo.ico" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="index.css" />
+    <style media="print">
+      body {
+        margin: 0;
+      }
+
+      .page2 {
+        page-break-before: always;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article>
+      <section class="bio">
+        <h1>梁又文</h1>
+        <p>男 | 22岁 | 前端开发 | 广州 | 1.5年</p>
+        <p>手机：15011756892 | 微信：gdgzyw | 邮箱：layouwen@gmail.com</p>
+      </section>
+      <section class="others">
+        <h2>相关链接</h2>
+        <ul>
+          <li>
+            有良好的的技术分享，知识总结及回顾习惯。我的
+            <a href="https://www.yuque.com/waver-klavd/lyw">博客</a>
+            ，目前已有 73 篇技术文章
+          </li>
+          <li>
+            个人仓库地址
+            <a href="https://gitee.com/layouwen">Gitee链接</a>
+            ，平时会开发一些开源项目及技术分享都会push到仓库中。
+          </li>
+        </ul>
+      </section>
+      <section class="jobs">
+        <h2>工作经历</h2>
+        <ol>
+          <li>
+            <header>
+              <h3>广州智码物联科技有限公司</h3>
+              <h4>前端中级工程师</h4>
+              <span>2021.03.24 ~ 至今</span>
+            </header>
+            <ul>
+              <li>
+                对接微信小商店业务开发和五粮液后台的 ToB 功能迭代及基本开发。抽离项目中的重复内容，从0搭建自己的组件库。
+              </li>
+            </ul>
+          </li>
+          <li>
+            <header>
+              <h3>广州自我游网络科技有限公司</h3>
+              <h4>前端开发工程师</h4>
+              <span>2021.12.21 ~ 2021.03.03</span>
+            </header>
+            <ul>
+              <li>
+                使用
+                <strong>UniApp</strong>
+                进行旅游 ToB 开发抖音、微信、支付宝、H5多端兼容小程序。添加及完善公司的组件库。
+              </li>
+              <li>
+                使用
+                <strong>Typescript</strong>
+                进行整体出项目重构。完成客户定制页面及日常项目迭代。
+              </li>
+            </ul>
+          </li>
+          <li>
+            <header>
+              <h3>深圳杰明信息科技有限公司</h3>
+              <h4>前端开发实习</h4>
+              <span>2020.04.20~2020.11.10</span>
+            </header>
+            <ul>
+              <li>
+                使用 微信原生小程序 及 Taro 独立开发完成公司 5个 小型项目。使用 React 进行后台开发，封装通用 hook
+                工具库，完成日程任务迭代修改。
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+      <section class="projects">
+        <h2>项目经历</h2>
+        <ol>
+          <li>
+            <header>
+              <h3>五粮液后台</h3>
+              <span>2021.03.24 ~ 至今</span>
+            </header>
+            <p>
+              与五粮液业务模块项目合作，为五粮液持续提供技术服务。包括五粮液小程序的业务及活动开发、后台管理的维护迭代。
+            </p>
+            <p>
+              使用
+              <strong>Echart</strong>
+              开发大数据图表数据展示模块。抽离常用重复业务代码，从零搭建公司独立业务组件库，并使用 Vue Test Utils
+              为其编写
+              <strong>单元/组件测试</strong>
+              。使用
+              <strong>Travis</strong>
+              进行持续集成测试。优化图片上传模块，添加
+              <strong>进度条</strong>
+              以及多图片上传时的异步
+              <strong>并发</strong>
+              控制。
+            </p>
+            <p>
+              技术栈：
+              <strong>Vue2/3</strong>
+              +
+              <strong>Vuex</strong>
+              +
+              <strong>TypeScript</strong>
+              +
+              <strong>Taro</strong>
+            </p>
+          </li>
+          <li>
+            <header>
+              <h3>自我游分销系统</h3>
+              <span>2020.12.21 ~ 2020.03.03</span>
+            </header>
+            <p>
+              完成旅游分销系统 toC 端小程序的优惠卷、抢购模块 toB 端后台的基本迭代和组件封装。参与使用 TypeScript
+              重构旧的
+              <strong>组件库</strong>
+              。
+            </p>
+            <p>
+              使用sessionStorage
+              <strong>缓存</strong>
+              更新率低的数据。使用
+              <strong>防抖</strong>
+              优化搜索和表单校验是的请求次数,使用
+              <strong>节流</strong>
+              优化加载更多防止重复触发请求，优化其请求次数。通过阿里云图片参数配置，对不需要预览页面设置
+              <strong>缩略图</strong>
+              。
+            </p>
+            <p>
+              技术栈：
+              <strong>UniApp</strong>
+              +
+              <strong>Vuex</strong>
+              +
+              <strong>TypeScript</strong>
+            </p>
+          </li>
+          <li>
+            <header>
+              <h3>UI组件库</h3>
+              <span>2020.05.11 ~ 2020.12.14</span>
+            </header>
+            <p>
+              <a style="margin-right: 10px" href="https://layouwen.gitee.io/yixin-ui-vue">Vue2旧版</a>
+              <a href="https://layouwen.gitee.io/easyw-ui-vue-website">Vue3新版</a>
+            </p>
+            <p>为掌握组件开发，简单搭建了自己的组件库。使用 TypeScript 进行代码编写。</p>
+            <p>
+              使用 Chai、Karma 等框架通过编写
+              <strong>BDD</strong>
+              测试用例进行自动化测试，发布到 Travis 中使其在每次 push 时进行持续集成测试。使用
+              <strong>VuePress</strong>
+              脚手架搭建组件文档。并尝试使用
+              <strong>npm</strong>
+              进行发包，进行简单的使用。
+            </p>
+            <p>后期使用 Vue3 的 Composition API 简单编写了几个组件，搭建了相应的官网。</p>
+            <p>
+              技术栈：
+              <strong>Vue2/3</strong>
+              +
+              <strong>TypeScript</strong>
+              +
+              <strong>Vuex</strong>
+              +
+              <strong>Chai</strong>
+              +
+              <strong>Karma</strong>
+            </p>
+          </li>
+        </ol>
+      </section>
+      <section class="openSource">
+        <h2>开源项目</h2>
+        <ul>
+          <li>
+            <header>
+              <h3>易新账本 Vue2</h3>
+              <div>2020.06.23 ~ 2020.08.22</div>
+            </header>
+            <p>
+              <a style="margin-right: 10px" href="https://github.com/Layouwen/yixin-money-vue">Vue源码</a>
+              <a style="margin-right: 10px" href="https://github.com/Layouwen/yixin-money-react">React源码</a>
+              <a href="https://layouwen.gitee.io/yixin-money-vue-website">项目预览</a>
+            </p>
+            <p>
+              一款简约风的记账应用。分别使用
+              <strong>Vue2</strong>
+              及
+              <strong>React</strong>
+              实现了2个版本。
+            </p>
+            <p>
+              技术栈
+              <strong>VueRouter</strong>
+              、
+              <strong>Vuex</strong>
+              、
+              <strong>React-router</strong>
+              、
+              <strong>Redux</strong>
+              、
+              <strong>TypeScript</strong>
+              等等。
+            </p>
+          </li>
+          <li>
+            <header>
+              <h3>博客服务端 NodeJS</h3>
+              <span>2020.12.30 ~ 2021.01.14</span>
+            </header>
+            <p><a href="https://github.com/layouwen/nodejs-blob">源码链接</a></p>
+            <p>
+              分别使用
+              <strong>原生</strong>
+              NodeJS、
+              <strong>Express</strong>
+              、
+              <strong>koa2</strong>
+              实现了。数据库分别使用
+              <strong>MySQL</strong>
+              、
+              <strong>Mongodb</strong>
+              实现。
+            </p>
+            <p>
+              使用
+              <strong>redis</strong>
+              、
+              <strong>nginx</strong>
+              、
+              <strong>PM2</strong>
+              进行部署。使用第三方库进行安全保护
+              <strong>XSS</strong>
+              攻击、
+              <strong>SQL</strong>
+              注入等。
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="skills">
+        <h2>技术栈</h2>
+        <div class="wrapper">
+          <ul>
+            <li>
+              曾搭建公司组件库，部署在内网gitlab，共8个通用业务组件。使用
+              <strong>Vue</strong>
+              和
+              <strong>React</strong>
+              全家桶及周边生态，独立及参与完成开发
+              <strong>9+</strong>
+              多个项目。对
+              <strong>Vuex</strong>
+              和
+              <strong>VueRouter</strong>
+              插件源码有初步了解曾简单实现基本功能，并记录发表文章到博客中。
+            </li>
+            <li>
+              能简单使用
+              <strong>Nodejs</strong>
+              的框架 Koa 搭建个人博客。使用
+              <strong>UniCloud</strong>
+              的云函数开发个人项目蓝鲸记账。对前端常见库均有使用经验，包括不限于 Echart、jQuery、Bootstrap等。
+            </li>
+            <li>
+              曾组织
+              <strong>5</strong>
+              人小团队采用敏捷式进行个人项目的开发。为团队配置
+              <strong>eslint</strong>
+              、
+              <strong>pre-commit</strong>
+              控制代码规范。并按需配置
+              <strong>webpack</strong>
+              插件。进行 Review 保证代码质量。采用 jest 对项目进行单元测试。
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="education">
+        <h2>教育经历</h2>
+        <!--  Select display  -->
+        <!-- <p>
+          <span class="pc">华南理工大学（自学考试）</span>
+          <span class="phone">华南理工</span>
+          <span>计算机科学与技术</span>
+          <span>2020.10~至今</span>
+          <span>本科</span>
+        </p> -->
+        <p>
+          <span class="pc">广州市机电技术学院</span>
+          <span class="phone">广州机电技师学院</span>
+          <span>计算机网络应用</span>
+          <span>2016.07 ~ 2021-01</span>
+          <span>大专</span>
+        </p>
+      </section>
+    </article>
+    <script src="style1.js"></script>
+  </body>
 </html>
