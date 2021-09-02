@@ -35,6 +35,10 @@ body {
   margin-bottom: 10px;
 }
 
+.edu > p {
+  display: flex;
+}
+
 header {
   background: #3c3c3c;
   width: 100%;
@@ -62,18 +66,24 @@ aside {
 }
 
 aside .avatar {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   position: absolute;
   top: -80px;
   width: 100%;
 }
 
-aside .avatar img {
+aside .avatar .img-container {
+  overflow: hidden;
   width: 160px;
   height: 160px;
   border-radius: 50%;
   border: 1px solid #ccc;
   background: #ccc;
+}
+
+aside .avatar .img-container img {
+  width: 100%;
 }
 
 section {
